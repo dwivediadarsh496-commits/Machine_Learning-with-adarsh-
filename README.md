@@ -8,7 +8,7 @@
 [![Status](https://img.shields.io/badge/Status-Active%20Learning-brightgreen?style=for-the-badge)](#)
 
 Welcome to my personal Machine Learning repository! 🚀  
-This repository documents my step-by-step journey of mastering Machine Learning from ground zero — starting with **Python & Data Analysis**, moving into **Data Preprocessing & Feature Engineering**, and advancing towards **Supervised, Unsupervised ML algorithms, Deep Learning, and Real-world Projects**.
+This repository documents my step-by-step journey of mastering Machine Learning from ground zero — starting with **Python & Data Analysis**, moving into **Data Preprocessing & Feature Engineering**, also and advancing towards **Supervised, Unsupervised ML algorithms, Deep Learning, and Real-world Projects**.
 
 ---
 
