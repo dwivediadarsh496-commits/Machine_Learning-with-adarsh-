@@ -23,7 +23,7 @@ Here is the structured roadmap being actively executed in this repository:
 - [x] Broadcasting & Functional Concepts in Python
 - [x] Hands-on mini logic scripts & data manipulation
 
-### 🟡 Phase 2: Data Cleaning & Preprocessing `[In Progress]`
+### 🟡 Phase 2: Data Cleaning & Preprocessing `[Active / Advanced]`
 Data preprocessing is the backbone of any reliable ML pipeline:
 - [x] **Missing Value Imputation**: Mean, Median, Mode & Forward/Backward fill (`Missing_Values.ipynb`)
 - [x] **Duplicate Record Handling**: Identifying & dropping redundant data (`Duplicate_Removal.ipynb`)
@@ -31,8 +31,17 @@ Data preprocessing is the backbone of any reliable ML pipeline:
 - [x] **Categorical Encoding**:
   - [x] Label Encoding (`label_encoding.ipynb`)
   - [x] One-Hot Encoding (`one_hot_encoding.ipynb`)
-- [x] **Data Cleaning & Pipeline Integration** (`Data_Cleaning.ipynb`, `Data_Preprocessing.ipynb`)
-- [ ] Feature Scaling (StandardScaler, MinMaxScaler, RobustScaler)
+  - [x] Ordinal Encoding (`ordinal_encoding.ipynb`)
+- [x] **Feature Scaling & Transformation**:
+  - [x] Feature Scaling (`feature_scaling.ipynb`)
+  - [x] Standardization (`standardization.ipynb`)
+  - [x] Normalization (`normalization.ipynb`)
+- [x] **Pipeline & Data Splitting**:
+  - [x] Train-Test Split (`train_test_split.ipynb`)
+  - [x] Scikit-Learn Pipeline (`sklearn_pipeline.ipynb`)
+- [x] **End-to-End Workflows**:
+  - [x] Data Cleaning (`Data_Cleaning.ipynb`)
+  - [x] Comprehensive Preprocessing (`Data_Preprocessing.ipynb`)
 - [ ] Handling Imbalanced Datasets (SMOTE, Undersampling, Class Weights)
 
 ### 🔵 Phase 3: Exploratory Data Analysis (EDA) & Visualization `[Upcoming]`
@@ -74,30 +83,36 @@ Data preprocessing is the backbone of any reliable ML pipeline:
 ```text
 Machine_Learning-with-adarsh/
 │
-├── Data_Analysis_in_Python/          # Core Python & Data Analysis scripts
-│   ├── broadcasting.py               # NumPy / Python broadcasting mechanics
-│   ├── clas.py & class.py            # OOP concepts & class structures
-│   ├── constructor.py                # OOP constructors & instance handling
-│   ├── dict.py                       # Dictionary operations & methods
-│   ├── list_and_tuple.py             # Lists and tuples manipulations
-│   ├── loops.py & conditional.py     # Flow control & logical branching
-│   ├── Dsa.py                        # Data structures & problem solving
-│   └── ...                           # Other utility & practice scripts
+├── Data_Analysis_in_Python/              # Core Python & Data Analysis scripts
+│   ├── broadcasting.py                   # NumPy / Python broadcasting mechanics
+│   ├── clas.py & class.py                # OOP concepts & class structures
+│   ├── constructor.py                    # OOP constructors & instance handling
+│   ├── dict.py                           # Dictionary operations & methods
+│   ├── list_and_tuple.py                 # Lists and tuples manipulations
+│   ├── loops.py & conditional.py         # Flow control & logical branching
+│   ├── Dsa.py                            # Data structures & problem solving
+│   └── ...                               # Other utility & practice scripts
 │
-├── Data_Cleaning.ipynb               # End-to-end data cleaning workflows
-├── Data_Preprocessing.ipynb          # Systematic preprocessing pipelines
-├── Missing_Values.ipynb              # Handling missing / NaN values
-├── Duplicate_Removal.ipynb           # Identifying & removing duplicate rows
-├── outlier_detection.ipynb           # Outlier detection (IQR, Boxplots, etc.)
-├── label_encoding.ipynb              # Label encoding implementation
-├── one_hot_encoding.ipynb            # One-hot encoding implementation
+├── Data_Preprocessing_for_ML/            # Comprehensive Data Preprocessing & Feature Engineering
+│   ├── Data_Cleaning.ipynb               # End-to-end data cleaning workflows
+│   ├── Data_Preprocessing.ipynb          # Systematic preprocessing pipelines
+│   ├── Duplicate_Removal.ipynb           # Identifying & removing duplicate rows
+│   ├── Missing_Values.ipynb              # Handling missing / NaN values
+│   ├── outlier_detection.ipynb           # Outlier detection (IQR, Boxplots, etc.)
+│   ├── label_encoding.ipynb              # Label encoding implementation
+│   ├── one_hot_encoding.ipynb            # One-hot encoding implementation
+│   ├── ordinal_encoding.ipynb            # Ordinal encoding implementation
+│   ├── feature_scaling.ipynb             # Feature scaling techniques
+│   ├── standardization.ipynb             # Standardization (StandardScaler)
+│   ├── normalization.ipynb               # Normalization (MinMaxScaler)
+│   ├── train_test_split.ipynb            # Train-Test data splitting strategies
+│   ├── sklearn_pipeline.ipynb            # Scikit-Learn Pipeline building
+│   ├── my_data.csv                       # Practice dataset
+│   ├── student_cleaned.csv               # Post-cleaning dataset
+│   └── student_one_hot_encoded.csv       # Post-encoding demonstration dataset
 │
-├── my_data.csv                       # Practice dataset
-├── student_cleaned.csv               # Post-cleaning dataset
-├── student_one_hot_encoded.csv       # Post-encoding demonstration dataset
-│
-├── .gitignore                        # Standard git ignore definitions
-└── README.md                         # Documentation & learning roadmap
+├── .gitignore                            # Standard git ignore definitions
+└── README.md                             # Documentation & learning roadmap
 ```
 
 ---
