@@ -36,8 +36,9 @@ Data preprocessing is the backbone of any reliable ML pipeline:
   - [x] Feature Scaling (`feature_scaling.ipynb`)
   - [x] Standardization (`standardization.ipynb`)
   - [x] Normalization (`normalization.ipynb`)
-- [x] **Pipeline & Data Splitting**:
+- [x] **Pipeline, Data Splitting & Prevention**:
   - [x] Train-Test Split (`train_test_split.ipynb`)
+  - [x] Data Leakage Prevention (`data_leakage.ipynb`)
   - [x] Scikit-Learn Pipeline (`sklearn_pipeline.ipynb`)
 - [x] **End-to-End Workflows**:
   - [x] Data Cleaning (`Data_Cleaning.ipynb`)
@@ -106,6 +107,7 @@ Machine_Learning-with-adarsh/
 │   ├── standardization.ipynb             # Standardization (StandardScaler)
 │   ├── normalization.ipynb               # Normalization (MinMaxScaler)
 │   ├── train_test_split.ipynb            # Train-Test data splitting strategies
+│   ├── data_leakage.ipynb                # Preventing data leakage in ML pipelines
 │   ├── sklearn_pipeline.ipynb            # Scikit-Learn Pipeline building
 │   ├── my_data.csv                       # Practice dataset
 │   ├── student_cleaned.csv               # Post-cleaning dataset
