@@ -43,6 +43,9 @@ Data preprocessing is the backbone of any reliable ML pipeline:
 - [x] **End-to-End Workflows**:
   - [x] Data Cleaning (`Data_Cleaning.ipynb`)
   - [x] Comprehensive Preprocessing (`Data_Preprocessing.ipynb`)
+- [x] **Dimensionality Reduction & Feature Selection**:
+  - [x] Principal Component Analysis (`pca.ipynb`)
+  - [ ] Feature Selection (`feature_selection.ipynb`)
 - [ ] Handling Imbalanced Datasets (SMOTE, Undersampling, Class Weights)
 
 ### 🔵 Phase 3: Exploratory Data Analysis (EDA) & Visualization `[Upcoming]`
@@ -68,7 +71,7 @@ Data preprocessing is the backbone of any reliable ML pipeline:
 
 ### 🟠 Phase 5: Unsupervised Machine Learning `[Upcoming]`
 - [ ] Clustering (K-Means, Hierarchical, DBSCAN)
-- [ ] Dimensionality Reduction (PCA - Principal Component Analysis, t-SNE)
+- [x] Dimensionality Reduction (PCA - Principal Component Analysis (`pca.ipynb`), t-SNE)
 - [ ] Anomaly Detection Algorithms
 
 ### 🔴 Phase 6: Model Evaluation, Tuning & Deployment `[Upcoming]`
@@ -109,6 +112,8 @@ Machine_Learning-with-adarsh/
 │   ├── train_test_split.ipynb            # Train-Test data splitting strategies
 │   ├── data_leakage.ipynb                # Preventing data leakage in ML pipelines
 │   ├── sklearn_pipeline.ipynb            # Scikit-Learn Pipeline building
+│   ├── pca.ipynb                         # Principal Component Analysis (PCA)
+│   ├── feature_selection.ipynb           # Feature selection workflows
 │   ├── my_data.csv                       # Practice dataset
 │   ├── student_cleaned.csv               # Post-cleaning dataset
 │   └── student_one_hot_encoded.csv       # Post-encoding demonstration dataset
